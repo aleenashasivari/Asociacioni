@@ -1,0 +1,56 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f5f5f5;
+margin:0;
+}
+
+h2{
+margin-top:20px;
+}
+
+/* grid kryesor */
+.grid{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:15px;
+width:90%;
+margin:auto;
+margin-top:30px;
+}
+
+/* rreshti A B C D */
+.final-row{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:15px;
+width:90%;
+margin:auto;
+margin-top:20px;
+}
+
+/* butonat normal */
+button{
+height:90px;
+font-size:26px;
+background:lightskyblue;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+color:black;
+}
+
+/* vetëm teksti A B C D */
+.column{
+color:#0b3d91; /* kaltër e mbyllt */
+}
+
+/* teksti i zgjidhjes perfundimtare */
+.final{
+width:90%;
+height:100px;
+font-size:30px;
+margin-top:20px;
+color:#d40000; /* ngjyrë unike */
+}
